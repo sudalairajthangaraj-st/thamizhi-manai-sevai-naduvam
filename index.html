@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Reliable house shifting, painting, and electrical services from THAMIZHI MANAI SEVAI NADUVAM Services.">
+  <title>THAMIZHI MANAI SEVAI NADUVAM | House Shifting & Home Care</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../STYLE.CSS/style.css">
+  <script src="../JSFROM.JS/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="THAMIZHI MANAI SEVAI NADUVAM home">
+      <span class="brand-mark">TM</span>
+      <span>THAMIZHI MANAI SEVAI NADUVAM <em>Services</em></span>
+    </a>
+    <a class="header-phone" href="tel:+91 6369323756">Call us <strong>+91 63693 23756</strong></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Move well. Live better.</p>
+        <h1>Your next chapter<br><span>starts here.</span></h1>
+        <p class="hero-copy">Thoughtful house shifting with the helping hands your home needs, from the first box to the final switch-on.</p>
+        <a class="button button-light" href="#booking">Plan your move <span aria-hidden="true">&#8595;</span></a>
+      </div>
+      <div class="scroll-note"><span></span> Scroll to begin</div>
+    </section>
+
+    <section class="services section-wrap" id="services">
+      <div class="section-intro">
+        <p class="eyebrow">More than a move</p>
+        <h2>One trusted team<br>for your whole home.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-item"><span class="service-number">01</span><h3>House shifting</h3><p>Careful packing, loading, transport, and placement at your new address.</p></article>
+        <article class="service-item"><span class="service-number">02</span><h3>Painting work</h3><p>Fresh walls and clean finishes that make the new place feel like yours.</p></article>
+        <article class="service-item"><span class="service-number">03</span><h3>Electrical work</h3><p>Reliable installations, repairs, and safe switch-on support for every room.</p></article>
+      </div>
+    </section>
+
+    <section class="booking section-wrap" id="booking">
+      <div class="booking-heading">
+        <p class="eyebrow">Start with the details</p>
+        <h2>Tell us what<br>you need.</h2>
+        <p>Share a few details and our team will get back to you with the next steps.</p>
+      </div>
+      <form id="booking-form" class="booking-form">
+        <div class="form-row">
+          <label>Full name <input type="text" name="name" placeholder="Your name" autocomplete="name" required></label>
+          <label>Mobile number <input type="tel" name="mobile" placeholder="10-digit mobile number" autocomplete="tel" pattern="[0-9 +()-]{10,}" required></label>
+        </div>
+        <label>Current address <textarea name="address" rows="2" placeholder="Where should we collect from?" autocomplete="street-address" required></textarea></label>
+        <div class="form-row">
+          <label>Pickup point <input type="text" name="pickup" placeholder="Area / city" required></label>
+          <label>Drop point <input type="text" name="drop" placeholder="Area / city" required></label>
+        </div>
+        <div class="form-row">
+          <label>Service required date <input type="date" name="date" required></label>
+          <fieldset>
+            <legend>Would you like a vehicle?</legend>
+            <div class="choice-group"><label class="choice"><input type="radio" name="vehicle" value="Yes" required><span>Yes</span></label><label class="choice"><input type="radio" name="vehicle" value="No"><span>No</span></label></div>
+          </fieldset>
+        </div>
+        <fieldset class="service-choice">
+          <legend>Additional services <small>Select all that apply</small></legend>
+          <div class="choice-group"><label class="choice"><input type="checkbox" name="services" value="Painting work"><span>Painting work</span></label><label class="choice"><input type="checkbox" name="services" value="Electrical work"><span>Electrical work</span></label></div>
+        </fieldset>
+        <label>Anything else we should know? <textarea name="notes" rows="3" placeholder="Floor number, fragile items, preferred time..." ></textarea></label>
+        <button class="button button-dark" type="submit">Send enquiry <span aria-hidden="true">&#8599;</span></button>
+        <p class="form-status" id="form-status" role="status"></p>
+      </form>
+    </section>
+
+    <section class="closing-banner" aria-label="MoveNest promise"><p>Good moves<br><span>feel like home.</span></p><a href="#booking" class="circle-link" aria-label="Book your move">&#8599;</a></section>
+  </main>
+
+  <footer class="site-footer"><span>MoveNest Services</span><span>House shifting · Painting · Electrical</span><span>Chennai & surrounding areas</span></footer>
+</body>
+</html>
